@@ -1,19 +1,19 @@
 /*
-Copyright (C) NAVER corp.  
+Copyright (C) NAVER corp.
 
-This library is free software; you can redistribute it and/or  
-modify it under the terms of the GNU Lesser General Public  
-License as published by the Free Software Foundation; either  
-version 2.1 of the License, or (at your option) any later version.  
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
 
-This library is distributed in the hope that it will be useful,  
-but WITHOUT ANY WARRANTY; without even the implied warranty of  
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU  
-Lesser General Public License for more details.  
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
 
-You should have received a copy of the GNU Lesser General Public  
-License along with this library; if not, write to the Free Software  
-Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA  
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 */
 /*
  * Smart Editor 2 Configuration : This setting must be changed by service
@@ -43,10 +43,10 @@ nhn.husky.SE2M_Configuration.SE_EditingAreaManager = {
  * [웹접근성]
  * 단축키 ALT+,  ALT+. 을 이용하여 스마트에디터 영역의 이전/이후 요소로 이동할 수 있다.
  * 		sBeforeElementId : 스마트에디터 영역 이전 요소의 id
- * 		sNextElementId : 스마트에디터 영역 이후 요소의 id 
- * 
+ * 		sNextElementId : 스마트에디터 영역 이후 요소의 id
+ *
  * 스마트에디터 영역 이외의 제목 영역 (예:스마트에디터가 적용된 블로그 쓰기 페이지에서의 제목 영역) 에 해당하는 엘리먼트에서 Tab키를 누르면 에디팅 영역으로 포커스를 이동시킬 수 있다.
- * 		sTitleElementId : 제목에 해당하는 input 요소의 id. 
+ * 		sTitleElementId : 제목에 해당하는 input 요소의 id.
  */
 nhn.husky.SE2M_Configuration.SE2M_Accessibility = {
     sBeforeElementId : '',
@@ -67,4 +67,14 @@ nhn.husky.SE2M_Configuration.Quote = {
 
 nhn.husky.SE2M_Configuration.SE2M_ColorPalette = {
 	bUseRecentColor : false
+};
+
+nhn.husky.SE2M_Configuration.QuickEditor = {
+    common : {
+        bUseConfig : false
+    },
+    Image : {
+        nImageMaxWidthSize : 9999,
+        nImageMaxHeightSize : 9999
+    }
 };
